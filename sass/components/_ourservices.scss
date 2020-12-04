@@ -1,0 +1,66 @@
+.Thumbnails {
+    width: 368px;
+    height: 410.2px;
+    background-color: $colorwhite;
+    box-shadow: $bigshad;
+    border-radius: $rad35;
+    margin-bottom: 111.8px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 47px 34px 30px
+}
+
+.Thumbnails img {
+    padding-top: 21.4px;
+    align-self: center;
+}
+
+.Thumbnails p {
+    font-family: $lato;
+    color: $colorDgrey;
+    line-height: 22px;
+    width: 317.3px;
+}
+
+.Thumbnails h4 {
+    color: $colorDgrey;
+    font-family: $pop;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 38px;
+    padding-bottom: 21px;
+    width: 295px;
+}
+
+.Thumbnails a {
+    align-self: flex-end;
+    margin-bottom: 27px;
+}
+
+.titleOurServices {
+    padding-left: 196px;
+    h2 {
+        font-family: $lato;
+        color: $colorLblue;
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .titleOurServices {
+        align-items: center;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .Thumbnails {
+        margin-left: 17px;
+    }
+}
+
+@media (max-width: 376px) {
+    .titleOurServices {
+        padding-left: 20px;
+        padding-top: 150px;
+    }
+}

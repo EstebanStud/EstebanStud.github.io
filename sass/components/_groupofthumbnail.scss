@@ -1,0 +1,27 @@
+        .GroupOfThumbnails {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-content: space-between;
+            padding: 0 15vh;
+            padding-top: 91.8px;
+            padding-bottom: 284px;
+        }
+        
+        .GroupOfThumbnails2 {
+            @extend .GroupOfThumbnails;
+            padding-bottom: 90px;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .GroupOfThumbnails {
+                padding: 0vh;
+                justify-content: center;
+            }
+        }
+        
+        @media (max-width: 376px) {
+            .GroupOfThumbnails {
+                padding: 0vh;
+            }
+        }

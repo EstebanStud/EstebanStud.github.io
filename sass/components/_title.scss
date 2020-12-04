@@ -1,0 +1,23 @@
+h3 {
+    font-family: $pop;
+    color: $colorDgrey;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.BlueText {
+    color: $colorLblue;
+    font-family: $pop;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 27px;
+}
+
+@media (max-width: 376px) {
+    h3 {
+        font-size: 40px;
+    }
+}

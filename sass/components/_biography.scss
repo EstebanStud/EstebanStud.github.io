@@ -1,0 +1,69 @@
+.biography {
+    background-image: url(../../img/background-we-are.png);
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: right;
+    height: 80vh;
+}
+
+.ImageBiography {
+    padding-left: 115px;
+    padding-top: 25px;
+}
+
+.TextBiography {
+    padding-left: 60px;
+    padding-top: 120px;
+    .descriptionWhoWeAre {
+        width: 533px;
+        height: 216px;
+        font-size: 16px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        color: $colorLgrey;
+        font-family: $pop;
+    }
+    #timeWhoWeAre {
+        @extend .descriptionWhoWeAre;
+        height: 20px;
+        margin-bottom: 45px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ImageBiography {
+        display: none;
+    }
+    .biography {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .TextBiography {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 376px) {
+    .ImageBiography {
+        display: none;
+    }
+    .TextBiography {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 330px;
+        padding-top: 200px;
+    }
+    .descriptionWhoWeAre {
+        font-size: 13px;
+        width: 340px;
+    }
+    #resp {
+        width: 340px;
+    }
+    #timeWhoWeAre {
+        padding-top: 150px;
+    }
+}

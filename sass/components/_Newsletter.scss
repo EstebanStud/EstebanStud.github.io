@@ -1,0 +1,40 @@
+.Newsletter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    .NewsletterPlacement {
+        padding-top: 135px;
+        padding-bottom: 109.7px;
+    }
+    .BlueText {
+        padding-top: 10px;
+    }
+    .NewsletterPlacement p {
+        color: $colorDgrey;
+        font-family: $pop;
+        font-size: 32px;
+        padding-bottom: 44px;
+    }
+}
+
+.Newsletter input {
+    padding: 18px 305px 17px 30px;
+    background-color: $colorDwhite;
+    font-family: $pop;
+    border: none;
+    font-size: 12px;
+    color: $colorLdark;
+    margin-right: 26px;
+}
+
+@media (max-width: 376px) {
+    .NewsletterPlacement p {
+        width: 340px;
+    }
+    .Newsletter input {
+        padding: 18px 200px 17px 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+}
